@@ -53,9 +53,9 @@ nav a {
 /* header relted style*/
 .header {
     background-color: #FFF8F3;
-    background-image: url(./portfolio-resources-main/images/header_bg.png);
+    background-image: url(./portfolio-resources-main/images/header_bg.png), url(portfolio-resources-main/images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -203,7 +203,7 @@ main section {
 
 .footer-container {
     display: flex;
-
+    margin-top: 100px;
     background: #FFF8F3;
     gap: 100px;
 }
